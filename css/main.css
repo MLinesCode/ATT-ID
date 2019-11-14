@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header {
+  height: 60px;
+}
+.logo-att {
+  height: 90%;
+  margin: 2% 3% 2% 3%;
+}
+
+.telephone-container {
+  display: grid;
+}
+.telephone {
+  height: 305px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ejecutive {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.ejecutive-container {
+  padding: inherit;
+}
+.ejecutive-name {
+  margin: 0;
+  font-size: 2rem;
+  padding: inherit;
+}
+.ejecutive-description {
+  margin: 0;
+  padding: inherit;
+  font-size: 1.4rem;
+}
+.data-container {
+  
+}
+
+.social-link {
+  height: 35px;
+} 
+.social-container {
+  justify-content: space-evenly;
+  height: 100%;
+  width: auto;
+  text-align: center;
+}
+.social-facebook {
+  margin: 0 5%;
+  height: 100%;
+}
+.social-whatsapp {
+  margin: 0 5%;
+  height: 100%;
+}
+.social-position {
+  margin: 0 5%;
+  height: 100%;
+}
+.social-telephone {
+  margin: 0 5%;
+  height: 100%;
+}
