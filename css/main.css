@@ -33,13 +33,14 @@ header {
 }
 .ejecutive-name {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding: inherit;
+  font-family: 'Quicksand', sans-serif;
 }
 .ejecutive-description {
   margin: 0;
   padding: inherit;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .data-container {
   
@@ -68,5 +69,13 @@ header {
 }
 .social-telephone {
   margin: 0 5%;
+  height: 100%;
+}
+
+.att-bussines {
+  height: 50px;
+  margin: 22px 2% 12px 2%;
+}
+.att-bussinesLogo {
   height: 100%;
 }
