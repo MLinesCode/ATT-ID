@@ -41,6 +41,7 @@ header {
   margin: 0;
   padding: inherit;
   font-size: 1.2rem;
+  line-height: 1.4rem;
 }
 .data-container {
   
@@ -56,19 +57,19 @@ header {
   text-align: center;
 }
 .social-facebook {
-  margin: 0 5%;
+  margin: 2% 5%;
   height: 100%;
 }
 .social-whatsapp {
-  margin: 0 5%;
+  margin: 2% 5%;
   height: 100%;
 }
 .social-position {
-  margin: 0 5%;
+  margin: 2% 5%;
   height: 100%;
 }
 .social-telephone {
-  margin: 0 5%;
+  margin: 2% 5%;
   height: 100%;
 }
 
