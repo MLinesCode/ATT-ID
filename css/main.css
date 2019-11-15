@@ -58,30 +58,32 @@ header {
   
 }
 
-.social-link {
+.social {
   height: 35px;
 } 
-.social-container {
-  justify-content: space-evenly;
-  height: 100%;
-  width: auto;
-  text-align: center;
+.social-container {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.social-facebook {
-  margin: 2% 5%;
-  height: 100%;
+.social-link {
+  display: inline;
+  width: 38px;
+  height: 38px;
+  margin: 5px 10px;
+  background-size: 38px 38px;
 }
-.social-whatsapp {
-  margin: 2% 5%;
-  height: 100%;
+.social-link.facebook {
+  background-image: url("../icons/facebook.svg");
 }
-.social-position {
-  margin: 2% 5%;
-  height: 100%;
+.social-link.whatsapp {
+  background-image: url("../icons/whatsapp.svg");
 }
-.social-telephone {
-  margin: 2% 5%;
-  height: 100%;
+.social-link.position {
+  background-image: url("../icons/marcador-de-posicion.svg");
+}
+.social-link.telephone {
+  background-image: url("../icons/telefono.svg");
 }
 
 .att-bussines {
@@ -93,7 +95,24 @@ header {
 }
 
 .footer {
-  height: 75px;
+  height: 115px;
   color: black;
-  background-color: white;
+  background-color: rgb(233, 233, 233);
+}
+.smart {
+  font-size: 1.3rem;
+  margin: 2%;
+  color: rgb(0, 178, 209);
+}
+.smart-description {
+  font-size: .8rem;
+  margin: 2%;
+}
+.smart-contacto {
+  font-size: 1.2rem;  
+  margin: 2%;
+  color: rgb(1, 162, 236);
+}
+strong {
+  color: rgb(1, 162, 236);
 }
