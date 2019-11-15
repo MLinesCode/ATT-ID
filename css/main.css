@@ -15,11 +15,13 @@ header {
 }
 .frase-container {
   height: 58px;
+  width: 105px;
   margin: 1% 2% 0 26%;
-  z-index: 5;
+  z-index: 99;
 }
 .frase {
   height: 100%;
+  width: 100%;
 }
 
 .telephone-container {
