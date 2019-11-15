@@ -13,9 +13,13 @@ header {
   height: 90%;
   margin: 2% 3% 2% 3%;
 }
-.frase {
+.frase-container {
   height: 58px;
   margin: 1% 2% 0 26%;
+  z-index: 5;
+}
+.frase {
+  height: 100%;
 }
 
 .telephone-container {
@@ -87,6 +91,7 @@ header {
 }
 
 .footer {
-  height: 65px;
-  color: white;
+  height: 75px;
+  color: black;
+  background-color: white;
 }
