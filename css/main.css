@@ -7,10 +7,15 @@ body {
 
 header {
   height: 60px;
+  display: flex;
 }
 .logo-att {
   height: 90%;
   margin: 2% 3% 2% 3%;
+}
+.frase {
+  height: 58px;
+  margin: 1% 2% 0 26%;
 }
 
 .telephone-container {
@@ -79,4 +84,9 @@ header {
 }
 .att-bussinesLogo {
   height: 100%;
+}
+
+.footer {
+  height: 65px;
+  color: white;
 }
