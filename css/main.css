@@ -28,10 +28,54 @@ header {
   display: grid;
 }
 .telephone {
-  height: 305px;
+  height: 315px;
   width: 150px;
   margin-left: auto;
   margin-right: auto;
+  z-index: 99;
+}
+
+.photo {
+  /* background-color: aqua; */
+  margin-top: -74%;
+  height: 210px;
+  margin: -74% 0 14% 0;
+}
+.screen {
+  width: 150px;
+  height: 231px;
+  /* border: 1px solid rgb(236, 48, 48); */
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+}
+.screen-photo {
+  height: 100%;
+  position: relative;
+}
+.screen-container {
+  height: 100%;
+  filter: blur(5px);
+  transition: all .33s ease;
+  width: 100%;
+}
+.screen-qr {
+  height: 100%;
+  margin-left: 7%;
+  margin-top: 8%;
+}
+.screen-photo .screen-banner {
+  left: 50%;
+  transition: all .46s ease;
+  position: absolute;
+  top: 25%;
+  transform: translateX(-50%);
+  height: 102%;
+}
+.screen-ejecutive {
+  height: 100%;
+  margin: -3.2em;
 }
 
 .ejecutive {
@@ -95,7 +139,7 @@ header {
 }
 
 .footer {
-  height: 115px;
+  height: 118px;
   color: black;
   background-color: rgb(233, 233, 233);
 }
@@ -115,4 +159,15 @@ header {
 }
 strong {
   color: rgb(1, 162, 236);
+}
+.social-contact {
+  height: 35px;
+  width: 65px;
+  display: flex;
+  align-content: flex-end;
+  margin: -12% 36%;
+  /* flex-wrap: wrap; */
+}
+.social-link.mail {
+  background-image: url("../icons/derecho.svg");
 }
