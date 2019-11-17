@@ -49,7 +49,7 @@ header {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 1%; */
+  margin-top: -1%;
   /* position: relative; */
 }
 .screen-photo {
