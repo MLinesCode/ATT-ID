@@ -139,7 +139,7 @@ header {
 }
 
 .footer {
-  height: 118px;
+  height: 120px;
   color: black;
   background-color: rgb(233, 233, 233);
   overflow: hidden;
@@ -155,18 +155,18 @@ header {
 }
 .smart-contacto {
   font-size: 1.2rem;  
-  margin: 2%;
+  margin: -1% 2% 3% 2%;
   color: rgb(1, 162, 236);
 }
 strong {
   color: rgb(1, 162, 236);
 }
 .social-contact {
-  height: 35px;
-  width: 65px;
+  height: 25px;
+  width: 60px;
   display: flex;
   align-content: flex-end;
-  margin: -14% 36%;
+  margin: -13% 36%;
   /* flex-wrap: wrap; */
 }
 .social-link.mail {
@@ -177,5 +177,5 @@ strong {
 }
 .img-smart {
   height: 55px;
-  margin: 12px 0 0 0;
+  margin: 20px 0 0 0;
 }
