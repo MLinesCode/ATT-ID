@@ -1,12 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="202" height="358" viewBox="0 0 202 358">
-  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-157 -332)">
-    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(157 332)" fill="none" stroke="#00a8e0" stroke-width="9">
-      <rect width="202" height="358" rx="27" stroke="none"/>
-      <rect x="4.5" y="4.5" width="193" height="349" rx="22.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="203" height="362" viewBox="0 0 203 362">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-310 -249)">
+    <rect id="Rectángulo_1" data-name="Rectángulo 1" width="193" height="27" rx="12" transform="translate(315 254)" fill="#00a8e0"/>
+    <g id="Rectángulo_1-2" data-name="Rectángulo 1" transform="translate(310 249)" fill="none" stroke="#00a8e0" stroke-width="9">
+      <rect width="203" height="362" rx="27" stroke="none"/>
+      <rect x="4.5" y="4.5" width="194" height="353" rx="22.5" fill="none"/>
     </g>
-    <rect id="Rectángulo_2" data-name="Rectángulo 2" width="32" height="12" rx="5" transform="translate(242 344)" fill="#00a8e0"/>
-    <line id="Línea_1" data-name="Línea 1" x2="189" transform="translate(164.5 363.5)" fill="none" stroke="#00a8e0" stroke-width="6"/>
-    <line id="Línea_2" data-name="Línea 2" x2="189" transform="translate(164.5 667.5)" fill="none" stroke="#00a8e0" stroke-width="6"/>
-    <ellipse id="Elipse_1" data-name="Elipse 1" cx="6.5" cy="6" rx="6.5" ry="6" transform="translate(279 344)" fill="#00a8e0"/>
+    <rect id="Rectángulo_2" data-name="Rectángulo 2" width="32" height="12" rx="5" transform="translate(396 261)" fill="#f1f1f1"/>
+    <line id="Línea_1" data-name="Línea 1" x2="190" transform="translate(317.5 280.5)" fill="none" stroke="#00a8e0" stroke-width="6"/>
+    <line id="Línea_2" data-name="Línea 2" x2="190" transform="translate(317.5 588.5)" fill="none" stroke="#00a8e0" stroke-width="6"/>
+    <ellipse id="Elipse_1" data-name="Elipse 1" cx="6.5" cy="6" rx="6.5" ry="6" transform="translate(433 261)" fill="#f1f1f1"/>
+    <rect id="Rectángulo_2-2" data-name="Rectángulo 2" width="187" height="18" rx="9" transform="translate(318 588)" fill="#00a8e0"/>
   </g>
 </svg>

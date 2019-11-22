@@ -25,31 +25,41 @@ header {
   width: 100%;
 }
 
+.hero {
+  height:320px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .telephone-container {
-  display: grid;
+  /* display: grid; */
 }
 .telephone {
-  height: 315px;
+  height: 271px;
   width: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   z-index: 99;
+  /* border: 1px solid blue; */
 }
 
 .photo {
   /* background-color: aqua; */
-  margin-top: -74%;
-  height: 210px;
-  margin: -74% 0 14% 0;
+  /* margin-top: -74%; */
+  /* align-items: center; */
+  /* height: 234px; */
+  /* margin: -74% 0 14% 0; */
 }
 .screen {
-  width: 150px;
-  height: 231px;
+  width: 149px;
+  height: 234px;
   /* border: 1px solid rgb(236, 48, 48); */
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -1%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* margin-top: -1%; */
   /* position: relative; */
 }
 .screen-photo {
@@ -63,19 +73,19 @@ header {
   width: 100%;
 }
 .screen-qr {
-  height: 100%;
+  height: 65%;
 }
 .screen-photo .screen-banner {
   left: 50%;
   transition: all .46s ease;
   position: absolute;
-  top: 25%;
+  top: 0;
   transform: translateX(-50%);
   height: 102%;
 }
 .screen-ejecutive {
   height: 100%;
-  margin: -3.2em;
+  /* margin: -3.2em; */
 }
 
 .ejecutive {
@@ -127,7 +137,7 @@ header {
   background-image: url("../icons/marcador-de-posicion.svg");
 }
 .social-link.telephone {
-  background-image: url("../icons/telefono.svg");
+  /* background-image: url("../icons/telefono.svg"); */
 }
 
 .att-bussines {
