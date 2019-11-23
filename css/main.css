@@ -151,7 +151,7 @@ header {
 }
 
 .footer {
-  height: 120px;
+  height: 130px;
   color: black;
   background-color: rgb(233, 233, 233);
   overflow: hidden;
@@ -159,7 +159,7 @@ header {
 .smart {
   font-size: 1.3rem;
   margin: 2%;
-  color: rgb(0, 178, 209);
+  color: rgb(1, 162, 236);
 }
 .smart-description {
   font-size: .8rem;
@@ -167,7 +167,7 @@ header {
 }
 .smart-contacto {
   font-size: 1.2rem;  
-  margin: -1% 2% 3% 2%;
+  margin: 3% 2% 3% 2%;
   color: rgb(1, 162, 236);
 }
 strong {
