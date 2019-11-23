@@ -124,7 +124,7 @@ header {
   display: inline;
   width: 38px;
   height: 38px;
-  margin: 5px 13px;
+  margin: 5px 12px;
   background-size: 38px 38px;
 }
 .social-link.facebook {
@@ -173,8 +173,8 @@ strong {
   color: rgb(1, 162, 236);
 }
 .social-contact {
-  height: 25px;
-  width: 60px;
+  height: 30px;
+  width: 70px;
   display: flex;
   align-content: flex-end;
   margin: -13% 36%;
