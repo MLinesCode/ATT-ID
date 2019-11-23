@@ -136,8 +136,8 @@ header {
 .social-link.position {
   background-image: url("../icons/marcador-de-posicion.svg");
 }
-.social-link.telephone {
-  /* background-image: url("../icons/telefono.svg"); */
+.social-link.tel {
+  background-image: url("../icons/telefono.svg");
 }
 
 .att-bussines {
