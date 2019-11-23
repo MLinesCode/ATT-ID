@@ -113,7 +113,7 @@ header {
 }
 
 .social {
-  height: 35px;
+  height: 38px;
 } 
 .social-container {  
   display: flex;
@@ -124,7 +124,7 @@ header {
   display: inline;
   width: 38px;
   height: 38px;
-  margin: 5px 10px;
+  margin: 5px 13px;
   background-size: 38px 38px;
 }
 .social-link.facebook {
@@ -135,6 +135,7 @@ header {
 }
 .social-link.position {
   background-image: url("../icons/marcador-de-posicion.svg");
+  margin: 5px 6px;
 }
 .social-link.tel {
   background-image: url("../icons/telefono.svg");
