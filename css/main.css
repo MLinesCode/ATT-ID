@@ -32,29 +32,21 @@ header {
   justify-content: center;
   align-items: center;
 }
-.telephone-container {
-  /* display: grid; */
-}
+
 .telephone {
   height: 271px;
   width: 150px;
   position: absolute;
   /* margin-left: auto; */
   /* margin-right: auto; */
-  z-index: 99;
+  /* z-index: 0; */
+  bottom: 261.6px;
   /* border: 1px solid blue; */
 }
 
-.photo {
-  /* background-color: aqua; */
-  /* margin-top: -74%; */
-  /* align-items: center; */
-  /* height: 234px; */
-  /* margin: -74% 0 14% 0; */
-}
 .screen {
-  width: 149px;
-  height: 234px;
+  width: 136px;
+  height: 224px;
   /* border: 1px solid rgb(236, 48, 48); */
   overflow: hidden;
   /* margin-left: auto; */
@@ -62,20 +54,21 @@ header {
   /* margin-top: -1%; */
   /* position: relative; */
 }
-.screen-photo {
+.photo {
   height: 100%;
   position: relative;
 }
-.screen-container {
+.photo-container {
   height: 100%;
-  filter: blur(5px);
+  filter: blur(90px);
   transition: all .33s ease;
   width: 100%;
 }
 .screen-qr {
-  height: 65%;
+  height: 61%;
+  margin: 28% 0 15% 0;
 }
-.screen-photo .screen-banner {
+.photo .photo-banner {
   left: 50%;
   transition: all .46s ease;
   position: absolute;
@@ -86,6 +79,14 @@ header {
 .screen-ejecutive {
   height: 100%;
   /* margin: -3.2em; */
+}
+
+.photo:hover > .photo-container {
+  filter: blur(0);
+}
+
+.photo:hover > .photo-banner {
+  opacity: 0;
 }
 
 .ejecutive {
