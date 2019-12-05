@@ -3,7 +3,7 @@
   "short_name": "At&tID",
   "description": "Información para contactarse con su ejecutivo At%t",
   "background_color": "#F6F6F6",
-  "theme_color": "#0D9AFF",
+  "theme_color": "#00A8E0",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
