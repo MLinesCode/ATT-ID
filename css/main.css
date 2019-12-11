@@ -109,9 +109,6 @@ header {
   font-size: 1.2rem;
   line-height: 1.4rem;
 }
-.data-container {
-  
-}
 
 .social {
   height: 38px;
@@ -172,6 +169,9 @@ header {
 }
 strong {
   color: rgb(1, 162, 236);
+}
+.social-contacto {
+  text-decoration: none;
 }
 .social-contact {
   height: 30px;
