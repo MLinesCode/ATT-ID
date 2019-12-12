@@ -181,9 +181,9 @@ strong {
   margin: -13% 36%;
   /* flex-wrap: wrap; */
 }
-.social-link.mail {
+/* .social-link.mail {
   background-image: url("../icons/derecho.svg");
-}
+} */
 .img-container {
   text-align: right;
 }
