@@ -135,6 +135,9 @@ header {
   background-image: url("../icons/marcador-de-posicion.svg");
   margin: 5px 6px;
 }
+.social-link.telegram {
+  background-image: url('../icons/telegrama.svg');
+}
 .social-link.tel {
   background-image: url("../icons/telefono.svg");
 }
