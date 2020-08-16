@@ -2,8 +2,8 @@ const $icon = document.querySelector('#icon')
 $icon.addEventListener('click', share)
 function share() {
   navigator.share({
-    title:'ATT - ID',
-    text:'ID Alexia Pacheco',
-    url:'./img/qr.png'
+    title:'AT&T - ID',
+    text:'AT&T ID Alexia Pacheco',
+    url:'https://zcmike.github.io/ATT-ID/'
   })
 }
