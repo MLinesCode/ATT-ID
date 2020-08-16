@@ -3,7 +3,6 @@ body {
   color: white;
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  /* overflow: hidden; */
 }
 
 header {
@@ -27,32 +26,37 @@ header {
 
 .hero {
   height:320px;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#icon {
+  height: 50px;
+  width: 50px;
+  margin: 0 -3rem 0 0;
+  margin-top: 8rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(1, 162, 236);
+}
+#icon-share {
+  font-size: 30px;
+  color: #ffffff;
 }
 
 .telephone {
   height: 271px;
   width: 150px;
   position: absolute;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* z-index: 0; */
   top: 81px;
-  /* border: 1px solid blue; */
 }
 
 .screen {
   width: 136px;
   height: 224px;
-  /* border: 1px solid rgb(236, 48, 48); */
   overflow: hidden;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* margin-top: -1%; */
-  /* position: relative; */
+  margin: 0 1.5rem;
 }
 .photo {
   height: 100%;
@@ -78,7 +82,6 @@ header {
 }
 .screen-ejecutive {
   height: 100%;
-  /* margin: -3.2em; */
 }
 
 .photo:hover > .photo-container {
@@ -182,11 +185,7 @@ strong {
   display: flex;
   align-content: flex-end;
   margin: -13% 36%;
-  /* flex-wrap: wrap; */
 }
-/* .social-link.mail {
-  background-image: url("../icons/derecho.svg");
-} */
 .img-container {
   text-align: right;
 }
