@@ -38,11 +38,11 @@ header {
   border-radius: 50%;
   border: none;
   cursor: pointer;
-  background-color: rgb(1, 162, 236);
+  background-color: black;
 }
 #icon-share {
-  font-size: 30px;
-  color: #ffffff;
+  height: 30px;
+  width: 30px;
 }
 
 .telephone {
