@@ -53,7 +53,7 @@ header {
 }
 
 .screen {
-  width: 136px;
+  width: 140px;
   height: 224px;
   overflow: hidden;
   margin: 0 1.5rem;
@@ -81,7 +81,8 @@ header {
   height: 102%;
 }
 .screen-ejecutive {
-  height: 100%;
+  height: 108%;
+  margin-left: 1.1%;
 }
 
 .photo:hover > .photo-container {
